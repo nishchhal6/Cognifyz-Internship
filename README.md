@@ -152,7 +152,7 @@ This internship was a fantastic learning experience where I completed 8 differen
 
 Thank you for visiting my repository!
 
-[def]: images/cognifyz-1.png
+[def]: images/Cognifyz.jpg
 [def1]: images/Task1.png
 [def2]: images/Task2.png
 [def3]: images/Task3.png
