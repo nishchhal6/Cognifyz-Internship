@@ -1,0 +1,11 @@
+// Main SCSS File
+
+// 1. Import Variables and Mixins first
+@import "variables";
+@import "mixins";
+
+// 2. Import Base styles
+@import "base";
+
+// 3. Import Layout styles
+@import "layout";

@@ -1,0 +1,31 @@
+// ===== Base and Typography =====
+
+// Import a Google Font in your HTML or via @import in SCSS
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-family;
+  font-size: $base-font-size;
+  color: $text-color;
+  background-color: $background-color;
+  line-height: 1.7;
+}
+
+.container {
+  width: 90%;
+  max-width: $container-width;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  color: $dark-color;
+}

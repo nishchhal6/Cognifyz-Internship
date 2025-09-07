@@ -1,0 +1,23 @@
+// ===== Mixins =====
+
+// Button Mixin for consistent button styles
+@mixin button-style($bg-color, $text-color) {
+  display: inline-block;
+  background: $bg-color;
+  color: $text-color;
+  padding: 12px 30px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px; // Pill-shaped buttons
+  transition: all $transition-speed ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+  }
+}
+
+// Gradient background mixin
+@mixin gradient-background($start-color, $end-color) {
+  background: linear-gradient(135deg, $start-color 0%, $end-color 100%);
+}
