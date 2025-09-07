@@ -1,0 +1,62 @@
+/* Body: Gradient Background and Centering */
+body {
+  font-family: "Poppins", sans-serif;
+  /* Default background gradient */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* This makes the background color change smooth */
+  transition: background 0.8s ease;
+}
+
+/* The Glassmorphism Card */
+.card {
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+  backdrop-filter: blur(25px); /* The magic blur effect */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  padding: 40px 50px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+/* Content inside the card */
+.card-content h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 0;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-content p {
+  font-size: 17px;
+  color: #e0e0e0;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+/* Stylish Button */
+.click-me-btn {
+  background: rgba(255, 255, 255, 0.9);
+  color: #5d3a9b; /* Dark purple text */
+  padding: 16px 40px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.click-me-btn:hover {
+  background: white;
+  transform: translateY(-3px) scale(1.05); /* Lifts up and gets bigger */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
