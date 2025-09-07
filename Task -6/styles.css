@@ -1,0 +1,104 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 15px; /* Softer corners */
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  padding: 35px 45px;
+  width: 100%;
+  max-width: 450px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 35px;
+  color: #333;
+  font-weight: 700;
+}
+
+.form-field {
+  margin-bottom: 25px; /* More space between fields */
+  position: relative;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+  font-weight: 600; /* Bolder labels */
+}
+
+.form-field input {
+  width: 100%;
+  padding: 15px; /* More padding */
+  border: 1px solid #ddd;
+  border-radius: 10px; /* More rounded inputs */
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-field input::placeholder {
+  color: #aaa;
+}
+
+.form-field input:focus {
+  outline: none;
+  border-color: #4a90e2; /* A nice blue for focus */
+  box-shadow: 0 0 8px rgba(74, 144, 226, 0.4); /* Glow effect */
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(
+    90deg,
+    #4a90e2 0%,
+    #81c7f4 100%
+  ); /* Gradient button */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+  box-shadow: 0 8px 15px rgba(74, 144, 226, 0.3);
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 20px rgba(74, 144, 226, 0.4);
+}
+
+/* --- Validation Styles --- */
+.error-text {
+  color: #d9534f; /* A standard error red */
+  font-size: 13px;
+  margin-top: 6px;
+  height: 15px; /* Reserve space to prevent layout shift */
+  visibility: hidden;
+}
+
+.form-field.error .error-text {
+  visibility: visible;
+}
+
+.form-field.error input {
+  border-color: #d9534f;
+  background-color: #fdf2f2; /* Light red background for error */
+}
+
+.form-field.success input {
+  border-color: #5cb85c; /* A standard success green */
+}
