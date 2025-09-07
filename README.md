@@ -9,7 +9,7 @@ Welcome to my repository for the Cognifyz Frontend Web Development Internship! T
 This internship was a fantastic learning experience where I completed 8 different tasks, each focusing on a specific area of web development. Below is a detailed breakdown of each task, its objective, and the final result.
 
 ---
-#### Basic Tasks
+### Basic Tasks:-
 ### Task 1: Basic Structure with HTML
 
 **Objective:** Create the foundational structure of a webpage using semantic HTML5 tags. This task focused on building a clean and accessible layout.
@@ -38,7 +38,7 @@ _(Yahan Task 1 ki image ka link daalein. Example: ![Task 1](link_to_your_image.p
 _(Yahan Task 2 ki image ka link daalein.)_
 
 ---
-
+### Intermediate Tasks:-
 ### Task 3: Hover Effects and Transitions
 
 **Objective:** Enhance user interaction by adding hover effects and smooth transitions to buttons and other interactive elements.
@@ -67,7 +67,7 @@ _(Yahan Task 3 ki image ka link daalein. GIF behtar rahega.)_
 _(Yahan Task 4 ki image ka link daalein, jismein mobile aur desktop view dono dikhe.)_
 
 ---
-
+### ADVANCE TASKS:-
 ### Task 5: API Integration
 
 **Objective:** Integrate an external API to fetch and display dynamic data, transforming the static webpage into a dynamic application.
@@ -97,7 +97,7 @@ _(Yahan Task 5 ki image ka link daalein, jismein API se aaya data dikh raha ho.)
 _(Yahan Task 6 ki image ka link daalein, jismein validation errors dikh rahe hon.)_
 
 ---
-
+### EXPERT TASKS:-
 ### Task 7: Component-Based Styling with Bootstrap
 
 **Objective:** Refactor the webpage using a CSS framework like Bootstrap to streamline development and ensure design consistency.
