@@ -22,7 +22,7 @@ This internship was a fantastic learning experience where I completed 8 differen
 - Created a simple, well-structured webpage that is easy for search engines and screen readers to understand.
 
 **Solution:**
-(images\Task1.png)
+![images/][def]
 
 ---
 
@@ -151,3 +151,5 @@ _(Yahan Task 8 ki image ka link daalein.)_
 ---
 
 Thank you for visiting my repository!
+
+[def]: images/Task1.png
