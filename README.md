@@ -1,6 +1,6 @@
-# Cognifyz Web Development Internship Tasks
+# Cognifyz Frontend Development Internship Tasks
 
-Welcome to my repository for the Cognifyz Web Development Internship! This repository documents my journey through a series of tasks designed to build and enhance my skills as a full-stack developer. Each task introduces new concepts, from basic HTML to advanced CSS preprocessing with Sass.
+Welcome to my repository for the Cognifyz Frontend Web Development Internship! This repository documents my journey through a series of tasks designed to build and enhance my skills as a Frontend developer. Each task introduces new concepts, from basic HTML to advanced CSS preprocessing with Sass.
 
 ---
 
@@ -9,7 +9,7 @@ Welcome to my repository for the Cognifyz Web Development Internship! This repos
 This internship was a fantastic learning experience where I completed 8 different tasks, each focusing on a specific area of web development. Below is a detailed breakdown of each task, its objective, and the final result.
 
 ---
-
+#### Basic Tasks
 ### Task 1: Basic Structure with HTML
 
 **Objective:** Create the foundational structure of a webpage using semantic HTML5 tags. This task focused on building a clean and accessible layout.
