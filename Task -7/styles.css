@@ -1,0 +1,138 @@
+/* --- Basic Setup --- */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* --- To-Do Container --- */
+.todo-container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  color: white;
+}
+
+header h1 {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+#todo-form {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+/* Input Group Wrapper */
+.input-group {
+  position: relative;
+  flex-grow: 1;
+}
+
+/* Label style */
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.7);
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+/* Input style */
+#todo-input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  font-size: 16px;
+  background: transparent;
+  color: white;
+  box-sizing: border-box;
+}
+
+/* Input par focus hone par label ka animation */
+#todo-input:focus ~ label,
+#todo-input:not(:placeholder-shown) ~ label {
+  top: -10px;
+  left: 10px;
+  transform: scale(0.8);
+  background: rgba(0, 0, 0, 0.879);
+  padding: 0 5px;
+  border-radius: 5px;
+  color: #ffc107;
+}
+
+#todo-input:focus {
+  outline: none;
+  border-color: #000000;
+}
+
+/* --- Baaki sab waisa hi rahega --- */
+#todo-form button {
+  background: #ffc107;
+  color: #333;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0 25px;
+  transition: background-color 0.3s ease;
+}
+#todo-form button:hover {
+  background-color: rgb(255, 255, 34);
+}
+#todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+#todo-list li {
+  background: rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#todo-list li:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+#todo-list li.completed .task-text {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #ff8a80;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 15px;
+  transition: color 0.3s ease;
+}
+.delete-btn:hover {
+  color: #ff5252;
+}
