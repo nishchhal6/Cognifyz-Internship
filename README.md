@@ -20,7 +20,7 @@ This internship was a fantastic learning experience where I completed 8 differen
 - Created a simple, well-structured webpage that is easy for search engines and screen readers to understand.
 
 **Solution:**
-_(Yahan Task 1 ki image ka link daalein. Example: ![Task 1](link_to_your_image.png))_
+images/Task1.png
 
 ---
 
