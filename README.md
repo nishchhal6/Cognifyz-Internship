@@ -1,3 +1,4 @@
+# ![images/][def]
 # Cognifyz Frontend Development Internship Tasks
 
 Welcome to my repository for the Cognifyz Frontend Web Development Internship! This repository documents my journey through a series of tasks designed to build and enhance my skills as a Frontend developer. Each task introduces new concepts, from basic HTML to advanced CSS preprocessing with Sass.
@@ -151,6 +152,7 @@ This internship was a fantastic learning experience where I completed 8 differen
 
 Thank you for visiting my repository!
 
+[def]: images/cognifyz-1.png
 [def1]: images/Task1.png
 [def2]: images/Task2.png
 [def3]: images/Task3.png
