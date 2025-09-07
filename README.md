@@ -1,6 +1,6 @@
-# Cognifyz Web Development Internship Tasks
+# Cognifyz Frontend Development Internship Tasks
 
-Welcome to my repository for the Cognifyz Web Development Internship! This repository documents my journey through a series of tasks designed to build and enhance my skills as a full-stack developer. Each task introduces new concepts, from basic HTML to advanced CSS preprocessing with Sass.
+Welcome to my repository for the Cognifyz Frontend Web Development Internship! This repository documents my journey through a series of tasks designed to build and enhance my skills as a Frontend developer. Each task introduces new concepts, from basic HTML to advanced CSS preprocessing with Sass.
 
 ---
 
@@ -9,6 +9,8 @@ Welcome to my repository for the Cognifyz Web Development Internship! This repos
 This internship was a fantastic learning experience where I completed 8 different tasks, each focusing on a specific area of web development. Below is a detailed breakdown of each task, its objective, and the final result.
 
 ---
+
+### Basic Tasks:-
 
 ### Task 1: Basic Structure with HTML
 
@@ -39,6 +41,8 @@ _(Yahan Task 2 ki image ka link daalein.)_
 
 ---
 
+### Intermediate Tasks:-
+
 ### Task 3: Hover Effects and Transitions
 
 **Objective:** Enhance user interaction by adding hover effects and smooth transitions to buttons and other interactive elements.
@@ -67,6 +71,8 @@ _(Yahan Task 3 ki image ka link daalein. GIF behtar rahega.)_
 _(Yahan Task 4 ki image ka link daalein, jismein mobile aur desktop view dono dikhe.)_
 
 ---
+
+### ADVANCE TASKS:-
 
 ### Task 5: API Integration
 
@@ -97,6 +103,8 @@ _(Yahan Task 5 ki image ka link daalein, jismein API se aaya data dikh raha ho.)
 _(Yahan Task 6 ki image ka link daalein, jismein validation errors dikh rahe hon.)_
 
 ---
+
+### EXPERT TASKS:-
 
 ### Task 7: Component-Based Styling with Bootstrap
 
