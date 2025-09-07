@@ -22,7 +22,7 @@ This internship was a fantastic learning experience where I completed 8 differen
 - Created a simple, well-structured webpage that is easy for search engines and screen readers to understand.
 
 **Solution:**
-![images/][def]
+![images/][def1]
 
 ---
 
@@ -37,7 +37,7 @@ This internship was a fantastic learning experience where I completed 8 differen
 - Focused on the box model, including padding, margins, and borders, to create a balanced layout.
 
 **Solution:**
-_(Yahan Task 2 ki image ka link daalein.)_
+![images/][def2]
 
 ---
 
@@ -53,7 +53,7 @@ _(Yahan Task 2 ki image ka link daalein.)_
 - Applied `transition` properties to create smooth animations on hover, improving the user experience.
 
 **Solution:**
-_(Yahan Task 3 ki image ka link daalein. GIF behtar rahega.)_
+![images/][def3]
 
 ---
 
@@ -68,7 +68,7 @@ _(Yahan Task 3 ki image ka link daalein. GIF behtar rahega.)_
 - Ensured all content is readable and accessible on any device.
 
 **Solution:**
-_(Yahan Task 4 ki image ka link daalein, jismein mobile aur desktop view dono dikhe.)_
+![images/][def4]
 
 ---
 
@@ -85,7 +85,7 @@ _(Yahan Task 4 ki image ka link daalein, jismein mobile aur desktop view dono di
 - Dynamically created HTML elements to display the fetched data on the webpage.
 
 **Solution:**
-_(Yahan Task 5 ki image ka link daalein, jismein API se aaya data dikh raha ho.)_
+![images/][def5]
 
 ---
 
@@ -100,8 +100,7 @@ _(Yahan Task 5 ki image ka link daalein, jismein API se aaya data dikh raha ho.)
 - Used JavaScript to validate user input (e.g., checking for empty fields, valid email format) and provide real-time error feedback.
 
 **Solution:**
-_(Yahan Task 6 ki image ka link daalein, jismein validation errors dikh rahe hon.)_
-
+![images/][def6]
 ---
 
 ### EXPERT TASKS:-
@@ -118,7 +117,7 @@ _(Yahan Task 6 ki image ka link daalein, jismein validation errors dikh rahe hon
 - Implemented Bootstrap's built-in form validation.
 
 **Solution:**
-_(Yahan Task 7 ki image ka link daalein.)_
+![images/][def7]
 
 ---
 
@@ -135,8 +134,8 @@ _(Yahan Task 7 ki image ka link daalein.)_
 - Used Sass **functions** like `darken()` for advanced color manipulation.
 
 **Solution:**
-_(Yahan Task 8 ki image ka link daalein.)_
-
+![images/][def8]
+![images/][def9]
 ---
 
 ## 🛠️ Technologies Used
@@ -152,4 +151,12 @@ _(Yahan Task 8 ki image ka link daalein.)_
 
 Thank you for visiting my repository!
 
-[def]: images/Task1.png
+[def1]: images/Task1.png
+[def2]: images/Task2.png
+[def3]: images/Task3.png
+[def4]: images/Task4.png
+[def5]: images/task5.png
+[def6]: images/Task6.png
+[def7]: images/Task7.png
+[def8]: images/Task8.png
+[def9]: images/Task8.1.png
