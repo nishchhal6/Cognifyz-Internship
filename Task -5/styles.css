@@ -1,0 +1,96 @@
+/* Body: Dark background */
+body {
+  font-family: "Source Code Pro", monospace;
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* The Terminal Window */
+.terminal {
+  width: 100%;
+  max-width: 700px;
+  background-color: #161625;
+  border: 1px solid #4f4f7a;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(22, 22, 37, 0.8);
+}
+
+/* Terminal Header */
+.terminal-header {
+  background-color: #2e2e48;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.header-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.red {
+  background-color: #ff5f56;
+}
+.yellow {
+  background-color: #ffbd2e;
+}
+.green {
+  background-color: #27c93f;
+}
+.header-title {
+  color: #b3b3cc;
+}
+
+/* Terminal Body and Content */
+.terminal-body {
+  padding: 20px;
+  height: 400px;
+  overflow-y: auto;
+}
+.terminal-body p {
+  color: #00f5d4; /* Neon Teal color */
+  margin: 0 0 20px 0;
+}
+
+/* The "EXECUTE" Button */
+.action-btn {
+  font-family: "Source Code Pro", monospace;
+  background-color: transparent;
+  border: 2px solid #f72585; /* Neon Pink border */
+  color: #f72585;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+  text-shadow: 0 0 5px #f72585;
+}
+.action-btn:hover {
+  background-color: #f72585;
+  color: #161625;
+  box-shadow: 0 0 20px #f72585;
+}
+.action-btn:disabled {
+  color: #4f4f7a;
+  border-color: #4f4f7a;
+  cursor: not-allowed;
+  text-shadow: none;
+}
+
+/* Style for the fetched data */
+#data-output p {
+  margin: 5px 0;
+  color: #e0e0e0;
+}
+#data-output span {
+  color: #a2d2ff; /* Light Blue for values */
+}

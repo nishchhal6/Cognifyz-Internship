@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev-Terminal :: API Fetch</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts for the code-like font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="terminal">
+      <div class="terminal-header">
+        <div class="header-dot red"></div>
+        <div class="header-dot yellow"></div>
+        <div class="header-dot green"></div>
+        <span class="header-title">/bin/fetch_users</span>
+      </div>
+      <div class="terminal-body">
+        <p>> Press the button to initialize data stream...</p>
+        <button id="fetch-btn" class="action-btn">EXECUTE</button>
+        <div id="data-output">
+          <!-- API data will appear here like terminal output -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
